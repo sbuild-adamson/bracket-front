@@ -17,8 +17,9 @@ import { ActivatedRoute } from '@angular/router';
       background-color: #555555;
       background-size: cover;
       min-height: 100%;
-      margin: 0;
+      margin: 5px;
       margin: auto;
+      padding: 15px 5px 5px 5px;
       width: 99%;
       max-width: 1100px;
     }
@@ -32,6 +33,6 @@ export class BracketComponent implements OnInit {
 
   ngOnInit() {
     this.bracket = this.route.snapshot.data['bracket'];
-    console.log(this.bracket)
+    console.log(this.bracket);
   }
 }

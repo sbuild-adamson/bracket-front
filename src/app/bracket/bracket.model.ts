@@ -1,3 +1,5 @@
+import { IUser } from '../user/user.model';
+
 export interface IBracket {
   id: number;
   name: string;
@@ -9,7 +11,7 @@ export interface IRound {
   id: number;
   name: string;
   date: Date;
-  matchup: IMatchup[];
+  matchups: IMatchup[];
 }
 
 export interface IMatchup {
@@ -18,7 +20,4 @@ export interface IMatchup {
   user2: IUser;
 }
 
-export interface IUser {
-  id: number;
-  name: string;
-}
+

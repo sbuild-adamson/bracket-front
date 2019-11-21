@@ -11,7 +11,23 @@ const BRACKET: IBracket = {
     id: 1,
     name: 'test',
     date: new Date('9/26/2036'),
-    matchup: [
+    matchups: [
+      {id: 1, user1: {id: 1, name: 'User'}, user2: {id: 1, name: 'User'}},
+      {id: 1, user1: {id: 1, name: 'User'}, user2: {id: 1, name: 'User'}}]
+  },
+  {
+    id: 2,
+    name: 'test',
+    date: new Date('9/26/2036'),
+    matchups: [
+      {id: 1, user1: {id: 1, name: 'User'}, user2: {id: 1, name: 'User'}},
+      {id: 1, user1: {id: 1, name: 'User'}, user2: {id: 1, name: 'User'}}]
+  },
+  {
+    id: 3,
+    name: 'test',
+    date: new Date('9/26/2036'),
+    matchups: [
       {id: 1, user1: {id: 1, name: 'User'}, user2: {id: 1, name: 'User'}},
       {id: 1, user1: {id: 1, name: 'User'}, user2: {id: 1, name: 'User'}}]
   }]

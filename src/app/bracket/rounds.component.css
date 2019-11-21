@@ -13,11 +13,16 @@
 }
 .round-details {
   font-family: 'Roboto Condensed', sans-serif;
-  font-size: 13px;
+  font-size: 16px;
   color: #2C7399;
   text-transform: uppercase;
   text-align: center;
   height: 40px;
+  
+  background-color: #aaaaaa;
+}
+.current {
+  color:black;
 }
 li.team {
   background-color: #fff;
